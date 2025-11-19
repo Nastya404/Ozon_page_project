@@ -1,0 +1,1 @@
+    const goodItem = goods.find(item => {return item.id === +key;});

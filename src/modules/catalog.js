@@ -18,9 +18,8 @@ const catalog = () => {
         element.addEventListener('click', () => {
             const text = element.textContent;
             getData(text).then((data) => renderGoods(categoryFilter(data, text)));
-
-        })
-        
+            catalogList.style.display =  'none';
+        })      
     })
 }
 
